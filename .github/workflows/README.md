@@ -35,5 +35,5 @@ All outputs are uploaded to S3:
 - Translations → `beta/translations/`
 - Audio Outputs → `beta/audio_outputs/`
 
-This is to test the workflow!
+
 ##Last updated: Today
