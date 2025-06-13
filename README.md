@@ -15,7 +15,7 @@ This project automates the conversion of English audio into multiple languages u
 ## 🔧 How to Set Up the Required AWS Resources
 
 ### 1. Amazon S3 (Storage)
-- Go to the [S3 Console](https://s3.console.aws.amazon.com/) 
+- Go to the S3 Console 
 - Create a new bucket (e.g., `pixel-learning-audio-bucket`)
 - Inside the bucket, create these folders:
   - `beta/transcripts/`
@@ -26,7 +26,7 @@ This project automates the conversion of English audio into multiple languages u
   - `prod/audio_outputs/`
 
 ### 2. IAM User (Permissions)
-- Go to [IAM Console](https://console.aws.amazon.com/iam/) 
+- Go to IAM Console
 - Create a new user with programmatic access
 - Attach these policies:
   - `AmazonS3FullAccess`
